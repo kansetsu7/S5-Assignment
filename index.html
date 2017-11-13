@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>S4 Assignment</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navigator -->
+  <div id="nav">
+    <div class="container">
+      <ul class="menu">
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#personality">個人特質</a></li>
+        <li><a href="#contact">與我聯繫</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- content -->
+  <div id="content">
+    <div class="container">
+      <!-- About me -->
+      <div id="about">
+        <div id="my-avatar">
+          <img src="./img/my-avatar.png" alt="my avatar">
+        </div>
+        <div id="my-info">
+          <h1>郭安傑</h1>
+          <hr />
+          <table>
+            <tr>
+              <th>工作經驗</th>
+              <td>>3年，空調領域研發工程師</td>
+            </tr>
+            <tr>
+              <th>開發技能</th>
+              <td>Java、C++、HTML、MySQL</td>
+            </tr>
+            <tr>
+              <th>學習經歷</th>
+              <td>
+                大航道計畫結業，進行中<br>
+                國立臺灣海洋大學碩士，2014
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr class="bar">
+      <!-- Personality -->
+      <div id="personality">
+        <h1>個人特質</h1>
+        <h3>熱愛交友</h3>
+        <div class="item">
+          <img src="./img/Japan.jpg" alt="熱愛交友-jp">
+          <div class="i-info">
+            <p>
+              <b>曾多次獨自在國外旅遊<br>
+              都能找到聊得來的夥伴</b>
+            </p>
+          </div>
+        </div>
+        <h3>熱愛挑戰</h3>
+        <div class="item">
+          <div class="i-info">
+            <p><b>參加單車環島、鐵人三項接力</b></p>
+          </div>
+          <img src="./img/Cycling.jpg" alt="熱愛挑戰"> 
+        </div>
+        <h3>愛搞笑</h3>
+        <div class="item">
+          <div class="i-info">
+            <p><b>常有些奇怪的行動</b></p>
+          </div>
+          <img src="./img/Funny.jpg" alt="愛搞笑">
+        </div>
+      </div>
+      <hr class="bar">
+      <!-- contact -->
+      <div id="contact">
+        <h1>與我聯繫</h1>
+          <form action="" class="contact-form">
+            <div class="form-row">
+              <label for="name">姓名</label>
+              <input id="name" name="name" type="text">
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email">
+            </div>
+            <div class="form-row">
+              <label for="message">訊息</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-row-btn">
+              <button type="reset">重設</button>
+              <button type="submit">提交</button>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
